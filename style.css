@@ -1,0 +1,40 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header {
+    background: grey;
+    height: 30px;
+    color: whitesmoke;
+}
+
+input{
+    width: 15%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    max-width: 450px;
+}
+
+button {
+    margin: 10px;
+}
+
+div {  
+    align-self: auto;
+    width: 25%;
+    text-align: initial;
+    margin: 0 auto;
+}
+
+footer {  
+    background: grey;
+    color: white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    margin: 0 auto;
+}
