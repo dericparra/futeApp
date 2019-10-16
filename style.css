@@ -3,17 +3,22 @@ body {
     text-align: center;
     width: 100%;
     margin: 0 auto;
-
+    line-height: 30px;
+    font-size: 20px;
 }
 
 header {
-    background: grey;
-    height: 30px;
+    background:  #b1b1b1;
+    height: 60px;
     color: whitesmoke;
+    font-size: 45px;
+    font-weight: bolder;
+    padding-top: 15px;
+    border-bottom:  solid black 5px;
 }
 
 input{
-    width: 15%;
+    width: 22%;
     margin-top: 70px;
     margin-bottom: 70px;
     max-width: 450px;
@@ -23,18 +28,169 @@ button {
     margin: 10px;
 }
 
-div {  
-    align-self: auto;
-    width: 25%;
-    text-align: initial;
-    margin: 0 auto;
-}
-
 footer {  
-    background: grey;
+    background: #b1b1b1;
     color: white;
     position:absolute;
     bottom:0;
     width:100%;
     margin: 0 auto;
+    border-top:  solid black 5px;
 }
+.pcdisplay {
+    line-height: 1.5;
+    font-size: 14px;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    height: 110px;
+    width: 90px;
+    font-weight: bold;
+    background-image: url('https://i.imgur.com/f3L1WMN.png');
+    border: none;
+    color: #e1c775;
+}
+  
+.top-overlay {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #e1c775;
+    line-height: 18px;
+    box-sizing: content-box;
+    width: 20px;
+    height: 76px;
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    z-index: 2;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 10%, rgba(0,0,0,0.65) 45%, rgba(0,0,0,0.76) 58%, rgba(0,0,0,0.75) 77%, rgba(0,0,0,0.7) 100%);
+    display: block;
+  }
+  
+.pcdisplay-rat {
+    cursor: pointer;
+    font-weight: bold;
+    color: #e1c775;
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 16px;
+    left: 5px;
+    line-height: 44px;
+    top: 7px;
+    width: 30px;
+    text-align: center;
+    z-index: 2;
+  }
+  
+.pcdisplay-name {
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 18px;
+    position: absolute;
+    font-size: 14px;
+    left: 1px;
+    text-align: center;
+    top: 77px;
+    width: 82px;
+    font-weight: 400;
+    z-index: 3;
+    color: #fce398 !important;
+  }
+  
+  .pcdisplay-position {
+    cursor: pointer;
+    color: #e1c775;
+    box-sizing: border-box;
+    line-height: 18px;
+    position: absolute;
+    font-size: 11px;
+    font-weight: 100;
+    left: 5px;
+    top: 31px;
+    width: 30px;
+    text-align: center;
+    z-index: 3;
+  }
+  
+  .pcdisplay-country {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #e1c775;
+    box-sizing: border-box;
+    line-height: 18px;
+    position: absolute;
+    left: 12px;
+    top: 58px;
+    z-index: 3;
+  }
+  
+  #player_nation {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #e1c775;
+    line-height: 18px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-style: none;
+    max-width: 15px;
+  }
+  
+  .pcdisplay-club {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #e1c775;
+    box-sizing: border-box;
+    line-height: 18px;
+    left: 12px;
+    position: absolute;
+    top: 42px;
+    z-index: 3;
+  }
+  
+  .pcdisplay-club img {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #e1c775;
+    line-height: 18px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-style: none;
+    width: 15px;
+  }
+  
+  .pcdisplay-picture {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #e1c775;
+    box-sizing: border-box;
+    line-height: 18px;
+    position: absolute;
+    right: 47px;
+    top: 23px;
+    width: 70px;
+    z-index: 1;
+  }
+  
+  .pcdisplay-picture img {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #e1c775;
+    box-sizing: border-box;
+    line-height: 18px;
+    position: absolute;
+    width: 70px;
+    z-index: 1;
+  }
